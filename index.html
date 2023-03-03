@@ -1,0 +1,303 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Title -->
+    <title>Online Shopping</title>
+  </head>
+
+  <!-- Body -->
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><strong>AURORA</strong></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mX-auto text-center">
+          <!-- Menu: About -->
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >About <span class="sr-only">(current)</span></a
+            >
+          </li>
+
+          <!-- Menu: Products (Dropdown) -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Men</a>
+              <a class="dropdown-item" href="#">Women</a>
+              <a class="dropdown-item" href="#">Kids</a>
+            </div>
+          </li>
+
+          <!-- Menu: Store Locator -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Store Locator</a>
+          </li>
+        </ul>
+
+        <div class="cart">
+          <button type="button" class="btn position-relative">
+            <i class="bi bi-cart">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-cart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                />
+              </svg>
+            </i>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge bg-primary"
+              >2</span
+            >
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <div class="hero-image">
+      <div class="hero-text">
+        <br /><br /><br /><br />
+        <h1 id="spring">SPRING COLLECTION</h1>
+        <h3>Now in store</h3>
+        <br /><br />
+        <button class="view-collection-btn">Shop now</button>
+      </div>
+    </div>
+
+    <br /><br /><br />
+
+    <div>
+      <h1 id="on-sale">ON SALE</h1>
+    </div>
+
+    <br /><br />
+
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="card mx-auto" style="width: 16rem">
+          <img class="card-img-top" src="product1.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Multi-coloured Short-sleeved Dress</h5>
+            <p class="card-prod-price"><strong>£74</strong></p>
+            <p class="card-prod-new-price">£59</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="card mx-auto" style="width: 16rem">
+          <img class="card-img-top" src="product2.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Black Long-sleeved Shirt</h5>
+            <p class="card-prod-price"><strong>£89</strong></p>
+            <p class="card-prod-new-price">£69</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="card mx-auto" style="width: 16rem">
+          <img class="card-img-top" src="product3.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Stripped t-shirt and trousers</h5>
+            <p class="card-prod-price"><strong>£97</strong></p>
+            <p class="card-prod-new-price">£75</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="card mx-auto" style="width: 16rem">
+          <img class="card-img-top" src="product4.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">White Long-sleeved Colar Shirt</h5>
+            <p class="card-prod-price"><strong>£74</strong></p>
+            <p class="card-prod-new-price">£59</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="card mx-auto" style="width: 16rem">
+          <img class="card-img-top" src="product5.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">White short-sleeved long dress</h5>
+            <p class="card-prod-price"><strong>£59</strong></p>
+            <p class="card-prod-new-price">£39</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="card mx-auto" style="width: 16rem">
+          <img class="card-img-top" src="product6.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Black Leather Jacket with fleece</h5>
+            <p class="card-prod-price"><strong>£110</strong></p>
+            <p class="card-prod-new-price">£99</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="card mx-auto" style="width: 16rem">
+          <img class="card-img-top" src="product7.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Long-sleeved buttoned shirt</h5>
+            <p class="card-prod-price"><strong>£55</strong></p>
+            <p class="card-prod-new-price">£42</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="card mx-auto" style="width: 16rem">
+          <img class="card-img-top" src="product8.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Coat with pockets (various colours)</h5>
+            <p class="card-prod-price"><strong>£39</strong></p>
+            <p class="card-prod-new-price">£19.98</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="card mx-auto" style="width: 16rem">
+          <img class="card-img-top" src="product9.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Short-sleeved basic T-shirt (various colours)
+            </h5>
+            <p class="card-prod-price"><strong>£29</strong></p>
+            <p class="card-prod-new-price">£14.99</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="card mx-auto" style="width: 16rem">
+          <img class="card-img-top" src="product10.jpg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Short-sleeved white dress</h5>
+            <p class="card-prod-price"><strong>£74</strong></p>
+            <p class="card-prod-new-price">£64</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+    <div class="join-banner">
+      <br /><br /><br />
+      <h1 id="on-sale">JOIN NOW</h1>
+      <p id="join">and get 20% discount on your first online purchase!</p>
+      <br /><br /><br />
+    </div>
+
+    <div class="footer-container">
+      <div class="footer">
+        <div>
+          <h4 class="footer-logo"><strong>AURORA</strong></h4>
+        </div>
+
+        <div class="info-container">
+          <div class="col">
+            <p id="join-2">Fill in the information below and start shopping</p>
+
+            <div class="row">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+                aria-label="First name"
+              />
+            </div>
+            <div class="row">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Last name"
+                aria-label="Last name"
+              />
+            </div>
+            <div class="row">
+              <input
+                type="Email"
+                class="form-control"
+                placeholder="Email"
+                aria-label="Email"
+              />
+            </div>
+            <br />
+            <a href="#" class="btn btn-primary">Send</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
